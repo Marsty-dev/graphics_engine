@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/raylib_project.dir/main.cpp.o  -o raylib_project -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.a -lraylib 
