@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/RaylibExample.dir/main.cpp.o  -o RaylibExample -lraylib 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/RaylibExample.dir/main.cpp.o CMakeFiles/RaylibExample.dir/main_programm.cpp.o  -o RaylibExample -lraylib 

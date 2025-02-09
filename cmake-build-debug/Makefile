@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/RaylibExample.dir/build.make CMakeFiles/RaylibExample.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main_programm.o: main_programm.cpp.o
+
+.PHONY : main_programm.o
+
+# target to build an object file
+main_programm.cpp.o:
+	$(MAKE) -f CMakeFiles/RaylibExample.dir/build.make CMakeFiles/RaylibExample.dir/main_programm.cpp.o
+.PHONY : main_programm.cpp.o
+
+main_programm.i: main_programm.cpp.i
+
+.PHONY : main_programm.i
+
+# target to preprocess a source file
+main_programm.cpp.i:
+	$(MAKE) -f CMakeFiles/RaylibExample.dir/build.make CMakeFiles/RaylibExample.dir/main_programm.cpp.i
+.PHONY : main_programm.cpp.i
+
+main_programm.s: main_programm.cpp.s
+
+.PHONY : main_programm.s
+
+# target to generate assembly for a file
+main_programm.cpp.s:
+	$(MAKE) -f CMakeFiles/RaylibExample.dir/build.make CMakeFiles/RaylibExample.dir/main_programm.cpp.s
+.PHONY : main_programm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main_programm.o"
+	@echo "... main_programm.i"
+	@echo "... main_programm.s"
 .PHONY : help
 
 

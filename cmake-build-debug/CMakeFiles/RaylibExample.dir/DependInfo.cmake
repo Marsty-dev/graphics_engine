@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/marsty/CLionProjects/engine_focuses/main.cpp" "/home/marsty/CLionProjects/engine_focuses/cmake-build-debug/CMakeFiles/RaylibExample.dir/main.cpp.o"
+  "/home/marsty/CLionProjects/engine_focuses/main_programm.cpp" "/home/marsty/CLionProjects/engine_focuses/cmake-build-debug/CMakeFiles/RaylibExample.dir/main_programm.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

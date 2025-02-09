@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RaylibExample.dir/main.cpp.o"
+  "CMakeFiles/RaylibExample.dir/main_programm.cpp.o"
   "RaylibExample.pdb"
   "RaylibExample"
 )

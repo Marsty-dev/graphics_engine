@@ -85,6 +85,12 @@
 		<Unit filename="/home/marsty/CLionProjects/engine_focuses/main.cpp">
 			<Option target="RaylibExample"/>
 		</Unit>
+		<Unit filename="/home/marsty/CLionProjects/engine_focuses/main_programm.cpp">
+			<Option target="RaylibExample"/>
+		</Unit>
+		<Unit filename="/home/marsty/CLionProjects/engine_focuses/main_programm.h">
+			<Option target="RaylibExample"/>
+		</Unit>
 		<Unit filename="/home/marsty/CLionProjects/engine_focuses/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
