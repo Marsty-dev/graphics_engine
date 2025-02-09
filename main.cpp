@@ -1,5 +1,7 @@
 #include <raylib.h>
 #include "main_programm.h"
+
+
 int main() {
     const int screen_w = 800, screen_h = 600;
     InitWindow(screen_w, screen_h, "engine_focuses");
@@ -22,12 +24,13 @@ int main() {
             DrawText("START", 550, 180, 45, WHITE);
             if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT)){
                 EndDrawing();
+                ClearBackground(GRAY);
                 showmenu = false;
 
             }
 
         }
-
+        if(showmenu == true){
         DrawRectangle(500, 350, button_w, button_h, GRAY);
         DrawText("QUIT", 565, 380, 45,WHITE);
         if(GetMouseX() > 500 && GetMouseX() < 750 && GetMouseY() > 350 && GetMouseY() < 450){
@@ -35,12 +38,12 @@ int main() {
             DrawText("QUIT", 565, 380, 45, WHITE);
             if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT))
                 break;
-        }
+        }}
         EndDrawing();}
         if(showmenu == 0){
             main_programm();
             if(IsKeyPressed(KEY_TAB))
-                showmenu = 1;
+                showmenu = true;
         }
     }
     UnloadTexture(background);
